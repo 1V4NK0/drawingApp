@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/bin/Debug/net8.0-ios/iossimulator-arm64/IvansApp.app/libSystem.Security.Cryptography.Native.Apple.dylib

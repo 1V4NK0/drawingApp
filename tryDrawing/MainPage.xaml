@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:toolkit="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+             x:Class="tryDrawing.MainPage">
+    <!-- i use community toolkit library for the project as it has many cool elements such as drawing view which are handy  -->
+    <!--https://github.com/CommunityToolkit/Maui  Community toolkit github-->
+    <!--https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/views/drawingview-->
+    <!--https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/  documentation-->
+    <!--https://vlegalwaymayo.atu.ie/pluginfile.php/1459557/mod_resource/content/0/5.%20Preferences%20DeviceInfo%20Timers%20Drawing.pdf-->
+    <!--https://www.youtube.com/watch?v=OB65n17bR98&list=PLfbOp004UaYVGg5nf36m85ygF9e_agzXD&index=21-->
+
+    <ScrollView>
+        <StackLayout x:Name="MainLayout">
+
+            <ScrollView Orientation="Horizontal">
+
+
+                <HorizontalStackLayout Background="Gray" Padding="10" Spacing="20" Margin="0,20,0,20" HorizontalOptions="Center" >
+                    <Button x:Name="Clear_Btn" BackgroundColor="DarkCyan" FontSize="20" Text="Clear"  Clicked="Clear_Btn_Clicked"/>
+                    <Button x:Name="Change_Color_Btn" FontSize="20" Text="Change color" BackgroundColor="DarkCyan"  Clicked="Change_Color_Btn_Clicked"/>
+                    <Button x:Name="Change_Canvas_Color_Btn" FontSize="20" BackgroundColor="DarkCyan" Text="Change canvas color"  Clicked="Change_Canvas_Color_Btn_Clicked"/>
+                    <Button x:Name="Undo_Btn" Text="Undo" BackgroundColor="DarkCyan" FontSize="20"  Clicked="Undo_Btn_Clicked"/>
+                    <Button x:Name="Save_Btn" Text="Save" BackgroundColor="DarkCyan" FontSize="20"  Clicked="Save_Btn_Clicked"/>
+                    
+                    <Label x:Name="RedLabel" Text="Red: 0" FontSize="20" VerticalOptions="Center"/>
+                    <Slider x:Name="RedSlider" ThumbColor="DarkCyan" Minimum="0" Maximum="255" ValueChanged="ColorSlider_ValueChanged"/>
+
+                    <Label x:Name="GreenLabel" Text="Green: 0" FontSize="20" VerticalOptions="Center"/>
+                    <Slider x:Name="GreenSlider" ThumbColor="DarkCyan" Minimum="0" Maximum="255" ValueChanged="ColorSlider_ValueChanged"/>
+
+                    <Label x:Name="BlueLabel" Text="Blue: 0" FontSize="20" VerticalOptions="Center"/>
+                    <Slider x:Name="BlueSlider" ThumbColor="DarkCyan" Minimum="0" Maximum="255" ValueChanged="ColorSlider_ValueChanged"/>
+
+                    <Label x:Name="BrushSize" Text="Brush size: 5" FontSize="20" VerticalOptions="Center"/>
+                    <Slider x:Name="BrushSizeSlider" ThumbColor="DarkCyan" Value="5" Minimum="1" Maximum="25" ValueChanged="BrushSizeSlider_ValueChanged"/>
+                </HorizontalStackLayout>
+
+            </ScrollView>
+
+            <toolkit:DrawingView
+                Margin="20"
+                x:Name="DrawView"
+                BackgroundColor="DarkGray"
+                
+                Lines="{Binding MyLines}"
+                IsMultiLineModeEnabled="True"
+                LineWidth="5"
+                />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
