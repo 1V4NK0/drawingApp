@@ -1,1 +1,1 @@
--v --force --timestamp=none --sign - --entitlements /Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/IvansApp.app
+-v --force --timestamp=none --sign - --entitlements /Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/IvansApp.app

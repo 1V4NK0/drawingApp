@@ -5,7 +5,7 @@ AreAnyAssembliesTrimmed=false
 				AOTOutputDirectory=obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/nativelibraries/aot-output/
 				DedupAssembly=obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/aot-instances.dll
 				AppBundleManifestPath=bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/IvansApp.app/Contents/Info.plist
-				CacheDirectory=/Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linker-cache
+				CacheDirectory=/Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linker-cache
 				
 				Debug=true
 				DeploymentTarget=13.1
@@ -185,7 +185,7 @@ FrameworkAssembly=System.Private.CoreLib
 				IntermediateLinkDir=obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linked/
 				InvariantGlobalization=false
 				HybridGlobalization=false
-				ItemsDirectory=/Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linker-items
+				ItemsDirectory=/Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=False
 				LibMonoLinkMode=static

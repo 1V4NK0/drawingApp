@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/IvansApp.csproj": {}
+    "/Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/IvansApp.csproj": {}
   },
   "projects": {
-    "/Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/IvansApp.csproj": {
+    "/Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/IvansApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/IvansApp.csproj",
+        "projectUniqueName": "/Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/IvansApp.csproj",
         "projectName": "IvansApp",
-        "projectPath": "/Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/IvansApp.csproj",
+        "projectPath": "/Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/IvansApp.csproj",
         "packagesPath": "/Users/zsutop/.nuget/packages/",
-        "outputPath": "/Users/zsutop/CrossPlatform/tryDrawing/tryDrawing/obj/",
+        "outputPath": "/Users/zsutop/IvanCherkesDrawingApp/drawingApp/tryDrawing/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
